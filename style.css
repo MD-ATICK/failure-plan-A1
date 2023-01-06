@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Andika&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300&family=Mukta:wght@200;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Yeon+Sung&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header-container{
+    height: 110vh;
+    width: 100%;
+    background-image: url('./images/banner/banner3.png');
+    background-color: rgba(0, 0, 0, 0.137);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 12rem ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top right;
+    color: white;
+}
+.header-content{
+    text-align: right;
+    width: 550px;
+}
+.header-content h1{
+    font-size: 55px;
+    letter-spacing: 1.5px;
+    
+}
+.header-content p{
+    font-size: 15px;
+    letter-spacing: .6px;
+    word-spacing: 1.7px;
+    line-height: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer{
+    background-color: rgb(52, 52, 52);
+}
+.footer-container{
+    display: flex;
+    height: 500px;
+    color: white;
+
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.footer .icons{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 0 ;
+}
+.footer .icons img{
+    padding: 0.5rem;
+    border-radius: 50%;
+    box-shadow:  0 0 5px white;
+}
+.footer .footer-left{
+    width: 50%;
+}
+.footer .footer-right{
+    width: 50%;
+    padding-left: 6rem;
+}
+.footer .footer-left h1 , .failiure-right h2 , .plans-container h1 , .testomonial h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+.footer .footer-left h1 span{
+    color: #006be6;
+}
+.footer .footer-right h2 span , .failiure-right h2 span , .plans-container h1 span , .testomonial h1 span{
+    color: #006be6;
+}
+.footer .footer-left p , .footer-right P , .failiure-right p ,.testomonial-item p{
+    font-size: 15px;
+    letter-spacing: .6px;
+    word-spacing: 1.7px;
+    line-height: 1.7rem;
+    padding: 1rem 0;
+}
+.footer .footer-right h2 , .footer-right h2{
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+}
+.footer .footer-right .right-form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 1.2rem;
+}
+.footer .footer-right .right-form input{
+    padding: 0.4rem 1rem;
+    border: 3px solid #006eff;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    border-radius: 5px;
+    margin: 1rem 0;
+    background-color: transparent;
+}
+.right-form button{
+    width: 50%;
+}
+.watch-bg{
+    height: 350px;
+    max-width: 1200px;
+    margin: 7rem auto;
+    padding: 5rem;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url('./images/gradient1.png') , url('./images/watch.png');
+    background-repeat: no-repeat , no-repeat;
+}
+.watch-bg h1{
+    font-size: 39px;
+    color: white;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+.plans-container{
+   text-align: center;
+   padding: 2rem 0 4rem 2rem;
+}
+.plans-container h1{
+    padding: 0 0 7rem 0;
+}
+.plans-items{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-item h3{
+    padding: 1rem 0;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.failure-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+.failure-content .failure-left img{
+    padding: 5rem 5rem 5rem 0;
+    width: 90%;
+}
+.failure-content .failiure-right{
+    width: 50%; 
+}
+.failure-rules p i{
+    padding: 0.3rem;
+    background-color: #006be6;
+    color: white;
+    font-size: 22px;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.failure-rules p{
+    display: flex;
+    align-items: center;
+}
+.testomonial{
+    max-width:1300px ;
+    margin: 4rem auto;
+    text-align: center;
+}
+.testomonial-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+.testomonial-item{
+    width: 370px;
+    height: 370px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 10px;
+    padding: 3rem;
+}
+.testomonial-item img{
+    width: 60px;
+    margin: 1rem;
+}
+.testomonial-item h3{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 1.8px;
+}
+
+/* all times useable items */
+
+button{
+    padding: 0.5rem 1.6rem;
+    background-color: #ffffff;
+    color: #006be6;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 0.6px;
+    border-radius: 5px;
+    border: 3px solid transparent ;
+    transition: all .2s ease-in;
+}
+button:hover{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 3px solid #ffffff ;
+}
+
+
